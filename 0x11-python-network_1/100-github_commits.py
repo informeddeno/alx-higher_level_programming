@@ -4,7 +4,7 @@
 if __name__ == "__main__":
     import requests
     import sys
-    url = "https://api.github.com/"
+    url = "https://developer.github.com/v3/repos/commits/"
     username = sys.argv[1]
     repo = sys.argv[2]
     commits_url = url + "repos/{}/{}/commits".format(username, repo)
